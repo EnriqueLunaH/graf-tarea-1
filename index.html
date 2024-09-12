@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea #1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/normalize.css">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/main.js"></script>
+</head>
+<body>
+  <main class="container">
+    <article class="grid">
+      <section class="grid-content">
+        <h1 class="title-primary">Tarea <span class="title-gradient-animate">#1</span></h1>
+        <p class="text-description text-color-light">Hola, soy <span class="text-bold"><a href="https://github.com/EnriqueLunaH" target="_blank" class="link-profile">Enrique</a></span> y esta es mi tarea #1.</p>
+        <p class="text-description text-color-light">El objetivo de esta tarea es realizar una pagina web que contenga lo siguiente:</p>
+        <ul class="list">
+          <li class="list-item">Un color de fondo</li>
+          <li class="list-item">Un encabezado tipo headding</li>
+          <li class="list-item">Un párrafo con un color, tipo de letra y tamaño diferente al que trae por default</li>
+          <li class="list-item">Una imagen</li>
+          <li class="list-item">Un hipervínculo</li>
+          <li class="list-item">Un elemento canvas que contenga 5 figuras diferentes</li>
+        </ul>
+      </section>
+      <section class="grid-wrapper">
+        <img src="assets/images/img1.jpg" class="grid-image image-random" alt="image background">
+      </section>
+    </article>
+  </main>
+  <section class="container">
+    <article class="grid-texts">
+      <section class="grid-texts-wrapper">
+        <h2 class="title-primary">Un simple título</h2>
+        <p class="grid-texts-element">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum beatae magnam reprehenderit animi, autem rerum omnis. Nobis nostrum adipisci harum. Aliquam ea nisi exercitationem labore ut, veniam quas illum modi!
+          Voluptate ipsa ea voluptas pariatur facilis! Nobis culpa impedit laborum omnis fuga. Veniam maiores dolorum repudiandae unde accusantium asperiores omnis aliquam molestiae dignissimos, enim at a quos laudantium, minima voluptatibus?
+          Nostrum dolorem quidem unde et, aspernatur ex itaque blanditiis, quas officiis deleniti eligendi dolor. Quidem aperiam harum explicabo dolorem doloremque non beatae neque iure. Quod deleniti eius magnam dolor sit?
+        </p>
+      </section>
+      <section class="grid-texts-wrapper">
+        <h2 class="title-primary">Otro simple título</h2>
+        <p class="grid-texts-element">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vitae earum sed aperiam necessitatibus animi exercitationem non corporis id sequi praesentium natus totam autem impedit labore eos, aut veritatis iusto.
+          Numquam sapiente cupiditate dolores repudiandae dicta natus, quam perferendis officia, assumenda quibusdam nesciunt accusamus dolorum porro! Mollitia, harum enim. Aperiam nemo ex quasi eveniet vel eos similique non enim veritatis.
+          Ipsam cupiditate possimus a commodi quod corporis, consectetur laudantium molestias maiores accusantium distinctio earum. Magnam voluptatum quod doloremque dolor quibusdam, dolorem consequuntur, aliquam molestias sapiente esse voluptatibus ducimus aspernatur minima?
+        </p>
+      </section>
+    </article>
+    <div class="container-inline">
+      <article class="canvas-wrapper">
+        <header>
+          <h3 class="title-primary">Canvas</h3>
+        </header>
+        <canvas id="canvas" width="500" height="500">
+          Tu navegador no soporta canvas
+        </canvas>
+      </article>
+      <article class="text-wrapper-big">
+        <header>
+          <h3 class="title-primary">Texto de tamaño 6rem</h3>
+        </header>
+        <section class="text-wrapper-big-element">
+          <p class="text-overflow">
+            Esto texto tiene un tamaño de 6rem y se encuentra en un contenedor hermano del canvas.
+          </p>
+        </section>
+      </article>
+    </div>
+    <article class="alert">
+      <p class="alert-text">
+        Opte por poner el tamañ0 de letra de los h1 en 2.5rem debido a que quedaba demaciado grade, asi mismo opte por poner el color azul en los elementos li de la lista desordenada al hacerles hover. El texto del tamaño del 250% opte por ponerlo en el contenedor hermano del canvas pero de 16 rem, con la finalidad de lograr armonia entre los tamaños de los elementos.
+      </p>
+    </article>
+  </section>
+</body>
+</html>
